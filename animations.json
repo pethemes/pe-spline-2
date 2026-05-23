@@ -3801,10 +3801,10 @@
       "index": 51,
       "name": "Cube to Glass",
       "target": "TRL 1x3 Cube",
-      "type": "scroll",
+      "type": "normal",
       "loop": false,
       "yoyo": false,
-      "duration": 0.0999999999999999,
+      "duration": 0.15,
       "delay": 0,
       "repeatDelay": 0,
       "easing": "linear",
@@ -3883,7 +3883,7 @@
       "type": "normal",
       "loop": false,
       "yoyo": false,
-      "duration": 0.0999999999999999,
+      "duration": 0.15,
       "delay": 0,
       "repeatDelay": 0,
       "easing": "linear",
@@ -3962,7 +3962,7 @@
       "type": "normal",
       "loop": false,
       "yoyo": false,
-      "duration": 0.0999999999999999,
+      "duration": 0.15,
       "delay": 0,
       "repeatDelay": 0,
       "easing": "linear",
@@ -4041,7 +4041,7 @@
       "type": "normal",
       "loop": false,
       "yoyo": false,
-      "duration": 0.0999999999999999,
+      "duration": 0.15,
       "delay": 0,
       "repeatDelay": 0,
       "easing": "linear",
@@ -4120,7 +4120,244 @@
       "type": "normal",
       "loop": false,
       "yoyo": false,
-      "duration": 0.0999999999999999,
+      "duration": 0.15,
+      "delay": 0,
+      "repeatDelay": 0,
+      "easing": "linear",
+      "easingPower": "power1",
+      "useCurrent": true,
+      "reverse": false,
+      "mouse": {
+        "event": "parallax",
+        "eventsTarget": "canvas",
+        "parallaxDir": "horizontal",
+        "parallaxPower": 0.5
+      },
+      "scroll": {
+        "trigger": "custom",
+        "triggerElement": ".div-block-2",
+        "start": "top bottom",
+        "end": "bottom top",
+        "scrub": 1,
+        "pin": false,
+        "itemStartPos": "top",
+        "windowStartPos": "center",
+        "itemEndPos": "bottom",
+        "windowEndPos": "top",
+        "startOffset": 0,
+        "endOffset": 1000,
+        "showMarkers": false
+      },
+      "from": {
+        "position": {
+          "x": 10,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "to": {
+        "state": "Glass Swap",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "enabledBreakpoints": {
+        "xxl": false,
+        "xl": false,
+        "base": false,
+        "tablet": false,
+        "mobileL": true,
+        "mobileP": true
+      }
+    },
+    {
+      "index": 56,
+      "name": "Cube to Glass - 6",
+      "target": "BRL 1x3 Cube",
+      "type": "normal",
+      "loop": false,
+      "yoyo": false,
+      "duration": 0.15,
+      "delay": 0,
+      "repeatDelay": 0,
+      "easing": "linear",
+      "easingPower": "power1",
+      "useCurrent": true,
+      "reverse": false,
+      "mouse": {
+        "event": "parallax",
+        "eventsTarget": "canvas",
+        "parallaxDir": "horizontal",
+        "parallaxPower": 0.5
+      },
+      "scroll": {
+        "trigger": "custom",
+        "triggerElement": ".div-block-2",
+        "start": "top bottom",
+        "end": "bottom top",
+        "scrub": 1,
+        "pin": false,
+        "itemStartPos": "top",
+        "windowStartPos": "center",
+        "itemEndPos": "bottom",
+        "windowEndPos": "top",
+        "startOffset": 0,
+        "endOffset": 1000,
+        "showMarkers": false
+      },
+      "from": {
+        "position": {
+          "x": 10,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "to": {
+        "state": "Glass Swap",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "enabledBreakpoints": {
+        "xxl": false,
+        "xl": false,
+        "base": false,
+        "tablet": false,
+        "mobileL": true,
+        "mobileP": true
+      }
+    },
+    {
+      "index": 57,
+      "name": "Cube to Glass - 7",
+      "target": "BRC 1x1 Cube",
+      "type": "normal",
+      "loop": false,
+      "yoyo": false,
+      "duration": 0.15,
+      "delay": 0,
+      "repeatDelay": 0,
+      "easing": "linear",
+      "easingPower": "power1",
+      "useCurrent": true,
+      "reverse": false,
+      "mouse": {
+        "event": "parallax",
+        "eventsTarget": "canvas",
+        "parallaxDir": "horizontal",
+        "parallaxPower": 0.5
+      },
+      "scroll": {
+        "trigger": "custom",
+        "triggerElement": ".div-block-2",
+        "start": "top bottom",
+        "end": "bottom top",
+        "scrub": 1,
+        "pin": false,
+        "itemStartPos": "top",
+        "windowStartPos": "center",
+        "itemEndPos": "bottom",
+        "windowEndPos": "top",
+        "startOffset": 0,
+        "endOffset": 1000,
+        "showMarkers": false
+      },
+      "from": {
+        "position": {
+          "x": 10,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "to": {
+        "state": "Glass Swap",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "enabledBreakpoints": {
+        "xxl": false,
+        "xl": false,
+        "base": false,
+        "tablet": false,
+        "mobileL": true,
+        "mobileP": true
+      }
+    },
+    {
+      "index": 58,
+      "name": "Cube to Glass - 8",
+      "target": "BRR 1x3 Cube",
+      "type": "normal",
+      "loop": false,
+      "yoyo": false,
+      "duration": 0.15,
       "delay": 0,
       "repeatDelay": 0,
       "easing": "linear",
