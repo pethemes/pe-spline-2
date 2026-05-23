@@ -4067,7 +4067,7 @@
         "windowEndPos": "top",
         "startOffset": 0,
         "endOffset": 1000,
-        "showMarkers": true
+        "showMarkers": false
       },
       "from": {
         "position": {
