@@ -1277,13 +1277,13 @@
           "enabled": true,
           "position": {
             "x": 1,
-            "y": -326.8292,
+            "y": 158,
             "z": 0
           },
           "scale": {
-            "x": 1.4639,
-            "y": 1.4639,
-            "z": 1.4639
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "rotate": {
             "x": -2.5700000000000003,
@@ -2138,9 +2138,9 @@
             "z": 0
           },
           "scale": {
-            "x": 3,
-            "y": 3,
-            "z": 3
+            "x": 2,
+            "y": 2,
+            "z": 2
           },
           "rotate": {
             "x": -1.57,
@@ -2508,8 +2508,8 @@
         "mobileP": {
           "enabled": true,
           "position": {
-            "x": 847.8694,
-            "y": 109.71977233886719,
+            "x": 946.04,
+            "y": 0,
             "z": 0
           },
           "scale": {
@@ -3624,6 +3624,24 @@
             "y": 3.14,
             "z": 6.28
           }
+        },
+        "mobileP": {
+          "enabled": true,
+          "position": {
+            "x": 165.8267,
+            "y": 109.719772,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotate": {
+            "x": 1.57,
+            "y": 3.14,
+            "z": 6.28
+          }
         }
       }
     },
@@ -4096,10 +4114,10 @@
         "end": "bottom top",
         "scrub": 1,
         "pin": false,
-        "itemStartPos": "top",
-        "windowStartPos": "center",
+        "itemStartPos": "bottom",
+        "windowStartPos": "bottom",
         "itemEndPos": "bottom",
-        "windowEndPos": "bottom",
+        "windowEndPos": "top",
         "startOffset": 0,
         "endOffset": 2500,
         "showMarkers": false
