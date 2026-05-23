@@ -20,7 +20,7 @@
         "parallaxPower": 0.5
       },
       "scroll": {
-        "trigger": "canvas",
+        "trigger": "page",
         "triggerElement": "",
         "start": "top bottom",
         "end": "bottom top",
@@ -31,7 +31,7 @@
         "itemEndPos": "bottom",
         "windowEndPos": "top",
         "startOffset": 0,
-        "endOffset": 0,
+        "endOffset": 9,
         "showMarkers": false
       },
       "from": {
@@ -91,7 +91,7 @@
         "parallaxPower": 0.5
       },
       "scroll": {
-        "trigger": "canvas",
+        "trigger": "page",
         "triggerElement": "",
         "start": "top bottom",
         "end": "bottom top",
@@ -102,7 +102,7 @@
         "itemEndPos": "bottom",
         "windowEndPos": "top",
         "startOffset": 0,
-        "endOffset": 0,
+        "endOffset": 9,
         "showMarkers": false
       },
       "from": {
@@ -162,7 +162,7 @@
         "parallaxPower": 0.5
       },
       "scroll": {
-        "trigger": "canvas",
+        "trigger": "page",
         "triggerElement": "",
         "start": "top bottom",
         "end": "bottom top",
@@ -173,7 +173,7 @@
         "itemEndPos": "bottom",
         "windowEndPos": "top",
         "startOffset": 0,
-        "endOffset": 0,
+        "endOffset": 9,
         "showMarkers": false
       },
       "from": {
@@ -233,7 +233,7 @@
         "parallaxPower": 0.5
       },
       "scroll": {
-        "trigger": "canvas",
+        "trigger": "page",
         "triggerElement": "",
         "start": "top bottom",
         "end": "bottom top",
@@ -244,7 +244,7 @@
         "itemEndPos": "bottom",
         "windowEndPos": "top",
         "startOffset": 0,
-        "endOffset": 0,
+        "endOffset": 9,
         "showMarkers": false
       },
       "from": {
