@@ -4434,5 +4434,637 @@
       "mobileL": true,
       "mobileP": true
     }
+  },
+  {
+    "index": 59,
+    "name": "Our Vision Cube to Glass - 1",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 60,
+    "name": "Our Vision Cube to Glass - 2",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 61,
+    "name": "Our Vision Cube to Glass - 3",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 62,
+    "name": "Our Vision Cube to Glass - 4",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 63,
+    "name": "Our Vision Cube to Glass - 5",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 64,
+    "name": "Our Vision Cube to Glass - 6",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 65,
+    "name": "Our Vision Cube to Glass - 7",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 66,
+    "name": "Our Vision Cube to Glass - 8",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".our-vision",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 5000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
   }
 ]
