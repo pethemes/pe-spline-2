@@ -2074,7 +2074,7 @@
       "windowEndPos": "bottom",
       "startOffset": 10,
       "endOffset": 0,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -2183,7 +2183,7 @@
       "windowEndPos": "bottom",
       "startOffset": 10,
       "endOffset": 0,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
