@@ -1,8 +1,8 @@
 [
   {
     "index": 1,
-    "name": "Top Col Reset",
-    "target": "Top Column",
+    "name": "TRL 1x1 Reset",
+    "target": "Top Row Left 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -31,7 +31,7 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -54,9 +54,9 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
+        "x": -100,
         "y": 0,
-        "z": -100
+        "z": 0
       },
       "scale": {
         "x": 1,
@@ -72,8 +72,8 @@
   },
   {
     "index": 2,
-    "name": "Top Col Row Left Reset",
-    "target": "Top Row Left",
+    "name": "TRL 1x2 Reset",
+    "target": "Top Row Left 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -102,7 +102,7 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -126,7 +126,7 @@
       "state": "",
       "position": {
         "x": 0,
-        "y": 100,
+        "y": 0,
         "z": 0
       },
       "scale": {
@@ -143,8 +143,8 @@
   },
   {
     "index": 3,
-    "name": "Top Col Row Center Reset",
-    "target": "Top Row Center",
+    "name": "TRL 1x3 Reset",
+    "target": "Top Row Left 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -173,7 +173,7 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -196,7 +196,7 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
+        "x": 100,
         "y": 0,
         "z": 0
       },
@@ -214,8 +214,8 @@
   },
   {
     "index": 4,
-    "name": "Top Col Row Right Reset",
-    "target": "Top Row Right",
+    "name": "TRC 1x1 Reset",
+    "target": "Top Row Center 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -244,7 +244,7 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -267,8 +267,8 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
-        "y": -100,
+        "x": -100,
+        "y": 0,
         "z": 0
       },
       "scale": {
@@ -285,8 +285,8 @@
   },
   {
     "index": 5,
-    "name": "Center Col Reset",
-    "target": "Center Column",
+    "name": "TRC 1x2 Reset",
+    "target": "Top Row Center 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -315,7 +315,7 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -356,8 +356,8 @@
   },
   {
     "index": 6,
-    "name": "Bottom Col Reset",
-    "target": "Bottom Column",
+    "name": "TRC 1x3 Reset",
+    "target": "Top Row Center 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -386,7 +386,149 @@
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
+      "showMarkers": true
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 100,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 7,
+    "name": "TRR 1x1 Reset",
+    "target": "Top Row Right 1x1",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 3000,
+      "showMarkers": true
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": -100,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 8,
+    "name": "TRR 1x2 Reset",
+    "target": "Top Row Right 1x2",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 3000,
       "showMarkers": true
     },
     "from": {
@@ -411,7 +553,78 @@
       "position": {
         "x": 0,
         "y": 0,
-        "z": 100
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 9,
+    "name": "TRR 1x3 Reset",
+    "target": "Top Row Right 1x3",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 3000,
+      "showMarkers": true
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 100,
+        "y": 0,
+        "z": 0
       },
       "scale": {
         "x": 1,
