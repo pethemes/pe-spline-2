@@ -91,19 +91,19 @@
       "parallaxPower": 0.5
     },
     "scroll": {
-      "trigger": "canvas",
-      "triggerElement": "",
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
       "start": "top bottom",
       "end": "bottom top",
       "scrub": 1,
       "pin": false,
       "itemStartPos": "top",
-      "windowStartPos": "bottom",
+      "windowStartPos": "top",
       "itemEndPos": "bottom",
-      "windowEndPos": "top",
+      "windowEndPos": "bottom",
       "startOffset": 0,
       "endOffset": 0,
-      "showMarkers": false
+      "showMarkers": true
     },
     "from": {
       "position": {
