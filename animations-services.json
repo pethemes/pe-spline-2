@@ -72,6 +72,77 @@
   },
   {
     "index": 2,
+    "name": "TRL 1x3 Glass Swap Rotate",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 10,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "canvas",
+      "triggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 63.6133,
+        "y": -7.9688,
+        "z": 6.793
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 1.4422,
+        "z": 0.8857
+      }
+    }
+  },
+  {
+    "index": 3,
     "name": "TRL 1x2 Glass Swap",
     "target": "TRR 1x2 Cube",
     "type": "normal",
@@ -142,7 +213,78 @@
     }
   },
   {
-    "index": 3,
+    "index": 4,
+    "name": "TRL 1x2 Glass Swap Rotate",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 10,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "canvas",
+      "triggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 5,
     "name": "CRL 1x3 Glass Swap",
     "target": "CRL Cube 1x1",
     "type": "normal",
@@ -213,7 +355,78 @@
     }
   },
   {
-    "index": 4,
+    "index": 6,
+    "name": "CRL 1x3 Glass Rotate",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 10,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "canvas",
+      "triggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": -1.8732,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 7,
     "name": "CRC 1x2 Glass Swap",
     "target": "CRC 1x2 Cube",
     "type": "normal",
@@ -284,7 +497,78 @@
     }
   },
   {
-    "index": 5,
+    "index": 8,
+    "name": "CRC 1x2 Glass Swap Rotate",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 10,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "canvas",
+      "triggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0.7828,
+        "z": -1.184
+      }
+    }
+  },
+  {
+    "index": 9,
     "name": "CRC 1x1 Glass Swap",
     "target": "CRR 1x1 Cube",
     "type": "normal",
@@ -350,6 +634,77 @@
       "rotate": {
         "x": 0,
         "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 10,
+    "name": "CRC 1x1 Glass Swap Rotate",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 10,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "canvas",
+      "triggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 1.8334,
         "z": 0
       }
     }
