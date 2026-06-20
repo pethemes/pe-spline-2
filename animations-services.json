@@ -27,7 +27,7 @@
       "scrub": 1,
       "pin": false,
       "itemStartPos": "top",
-      "windowStartPos": "bottom",
+      "windowStartPos": "top",
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
@@ -56,7 +56,7 @@
       "position": {
         "x": 0,
         "y": 0,
-        "z": 0
+        "z": -100
       },
       "scale": {
         "x": 1,
