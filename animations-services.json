@@ -215,7 +215,7 @@
   {
     "index": 4,
     "name": "TRL 1x2 Glass Swap Rotate",
-    "target": "TRR 1x2 Cube",
+    "target": "Top Row Right 1x2",
     "type": "normal",
     "loop": true,
     "yoyo": true,
@@ -268,7 +268,7 @@
       "state": "",
       "position": {
         "x": 0,
-        "y": 0,
+        "y": 141.543,
         "z": 0
       },
       "scale": {
@@ -277,9 +277,9 @@
         "z": 1
       },
       "rotate": {
-        "x": 3,
-        "y": 0,
-        "z": 0
+        "x": 0.6098,
+        "y": -0.9029,
+        "z": 1.0131
       }
     }
   },
@@ -356,8 +356,8 @@
   },
   {
     "index": 6,
-    "name": "CRL 1x3 Glass Rotate",
-    "target": "CRL Cube 1x1",
+    "name": "CRL 1x3 Glass Swap Rotate",
+    "target": "Center Row Left 1x1",
     "type": "normal",
     "loop": true,
     "yoyo": true,
@@ -409,9 +409,9 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": -335.5,
+        "y": 263.3203,
+        "z": -2.2265
       },
       "scale": {
         "x": 1,
@@ -420,7 +420,7 @@
       },
       "rotate": {
         "x": 0,
-        "y": -1.8732,
+        "y": 0,
         "z": 0
       }
     }
@@ -499,7 +499,7 @@
   {
     "index": 8,
     "name": "CRC 1x2 Glass Swap Rotate",
-    "target": "CRC 1x2 Cube",
+    "target": "Center Row Center 1x2",
     "type": "normal",
     "loop": true,
     "yoyo": true,
@@ -551,7 +551,7 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
+        "x": 356.7265,
         "y": 0,
         "z": 0
       },
@@ -561,9 +561,9 @@
         "z": 1
       },
       "rotate": {
-        "x": 0,
-        "y": 0.7828,
-        "z": -1.184
+        "x": 0.7695,
+        "y": 0.459,
+        "z": 0
       }
     }
   },
@@ -641,7 +641,7 @@
   {
     "index": 10,
     "name": "CRC 1x1 Glass Swap Rotate",
-    "target": "CRR 1x1 Cube",
+    "target": "Center Row Right 1x1",
     "type": "normal",
     "loop": true,
     "yoyo": true,
@@ -693,9 +693,9 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": -153.8125,
+        "y": -81.5312,
+        "z": -15.4609
       },
       "scale": {
         "x": 1,
@@ -704,8 +704,8 @@
       },
       "rotate": {
         "x": 0,
-        "y": 1.8334,
-        "z": 0
+        "y": 0.0471,
+        "z": 1.2782
       }
     }
   }
