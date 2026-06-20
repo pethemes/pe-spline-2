@@ -32,7 +32,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -103,7 +103,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -174,7 +174,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -245,7 +245,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -316,7 +316,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -387,7 +387,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -458,7 +458,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -529,7 +529,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -600,7 +600,7 @@
       "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 3000,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
