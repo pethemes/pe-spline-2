@@ -1,6 +1,574 @@
 [
   {
     "index": 1,
+    "name": "CRL 1x1 Glass Swap",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "name": "TRL 1x3 Glass Swap",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 3,
+    "name": "TRR 1x2 Glass Swap",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 4,
+    "name": "CRC 1x2 Glass Swap",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 5,
+    "name": "CRR 1x1 Glass Swap",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 6,
+    "name": "BRL 1x3 Glass Swap",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 7,
+    "name": "BRC 1x1 Glass Swap",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 8,
+    "name": "BRR 1x3 Glass Swap",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": true,
+    "yoyo": true,
+    "duration": 0.2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#hero-sticky-wrap",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": -1,
+      "endOffset": 1,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 9,
     "name": "Top Row Left Rotate",
     "target": "Top Row Left",
     "type": "normal",
@@ -71,7 +639,7 @@
     }
   },
   {
-    "index": 2,
+    "index": 10,
     "name": "Top Row Center Rotate",
     "target": "Top Row Center",
     "type": "normal",
@@ -142,7 +710,7 @@
     }
   },
   {
-    "index": 3,
+    "index": 11,
     "name": "Top Row Right Rotate",
     "target": "Top Row Right",
     "type": "normal",
@@ -213,7 +781,7 @@
     }
   },
   {
-    "index": 4,
+    "index": 12,
     "name": "Center Row Center Rotate",
     "target": "Center Row Center",
     "type": "normal",
@@ -284,7 +852,7 @@
     }
   },
   {
-    "index": 5,
+    "index": 13,
     "name": "Center Row Right Rotate",
     "target": "Center Row Right",
     "type": "normal",
@@ -355,7 +923,7 @@
     }
   },
   {
-    "index": 6,
+    "index": 14,
     "name": "Bottom Row Left Rotate",
     "target": "Bottom Row Left",
     "type": "normal",
@@ -426,7 +994,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 15,
     "name": "Bottom Row Center Rotate",
     "target": "Bottom Row Center",
     "type": "normal",
@@ -497,7 +1065,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 16,
     "name": "TRL 1x1 Reset",
     "target": "Top Row Left 1x1",
     "type": "scroll",
@@ -568,7 +1136,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 17,
     "name": "TRL 1x2 Reset",
     "target": "Top Row Left 1x2",
     "type": "scroll",
@@ -639,7 +1207,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 18,
     "name": "TRL 1x3 Reset",
     "target": "Top Row Left 1x3",
     "type": "scroll",
@@ -710,7 +1278,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 19,
     "name": "TRC 1x1 Reset",
     "target": "Top Row Center 1x1",
     "type": "scroll",
@@ -781,7 +1349,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 20,
     "name": "TRC 1x2 Reset",
     "target": "Top Row Center 1x2",
     "type": "scroll",
@@ -852,7 +1420,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 21,
     "name": "TRC 1x3 Reset",
     "target": "Top Row Center 1x3",
     "type": "scroll",
@@ -923,7 +1491,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 22,
     "name": "TRR 1x1 Reset",
     "target": "Top Row Right 1x1",
     "type": "scroll",
@@ -994,7 +1562,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 23,
     "name": "TRR 1x2 Reset",
     "target": "Top Row Right 1x2",
     "type": "scroll",
@@ -1065,7 +1633,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 24,
     "name": "TRR 1x3 Reset",
     "target": "Top Row Right 1x3",
     "type": "scroll",
@@ -1136,7 +1704,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 25,
     "name": "CRL 1x1 Reset",
     "target": "Center Row Left 1x1",
     "type": "scroll",
@@ -1207,7 +1775,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 26,
     "name": "CRL 1x2 Reset",
     "target": "Center Row Left 1x2",
     "type": "scroll",
@@ -1278,7 +1846,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 27,
     "name": "CRL 1x3 Reset",
     "target": "Center Row Left 1x3",
     "type": "scroll",
@@ -1349,7 +1917,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 28,
     "name": "CRC 1x1 Reset",
     "target": "Center Row Center 1x1",
     "type": "scroll",
@@ -1420,7 +1988,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 29,
     "name": "CRC 1x2 Reset",
     "target": "Center Row Center 1x2",
     "type": "scroll",
@@ -1491,7 +2059,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 30,
     "name": "CRC 1x3 Reset",
     "target": "Center Row Center 1x3",
     "type": "scroll",
@@ -1562,7 +2130,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 31,
     "name": "CRR 1x1 Reset",
     "target": "Center Row Right 1x1",
     "type": "scroll",
@@ -1633,7 +2201,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 32,
     "name": "CRR 1x2 Reset",
     "target": "Center Row Right 1x2",
     "type": "scroll",
@@ -1704,7 +2272,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 33,
     "name": "CRR 1x3 Reset",
     "target": "Center Row Right 1x3",
     "type": "scroll",
@@ -1775,7 +2343,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 34,
     "name": "BRL 1x1 Reset",
     "target": "Bottom Row Left 1x1",
     "type": "scroll",
@@ -1846,7 +2414,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 35,
     "name": "BRL 1x2 Reset",
     "target": "Bottom Row Left 1x2",
     "type": "scroll",
@@ -1917,7 +2485,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 36,
     "name": "BRL 1x3 Reset",
     "target": "Bottom Row Left 1x3",
     "type": "scroll",
@@ -1988,7 +2556,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 37,
     "name": "BRC 1x1 Reset",
     "target": "Bottom Row Center 1x1",
     "type": "scroll",
@@ -2059,7 +2627,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 38,
     "name": "BRC 1x2 Reset",
     "target": "Bottom Row Center 1x2",
     "type": "scroll",
@@ -2130,7 +2698,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 39,
     "name": "BRC 1x3 Reset",
     "target": "Bottom Row Center 1x3",
     "type": "scroll",
@@ -2201,7 +2769,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 40,
     "name": "BRR 1x1 Reset",
     "target": "Bottom Row Right 1x1",
     "type": "scroll",
@@ -2272,7 +2840,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 41,
     "name": "BRR 1x2 Reset",
     "target": "Bottom Row Right 1x2",
     "type": "scroll",
@@ -2343,7 +2911,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 42,
     "name": "BRR 1x3 Reset",
     "target": "Bottom Row Right 1x3",
     "type": "scroll",
@@ -2414,7 +2982,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 43,
     "name": "Top Row Left Reset",
     "target": "Top Row Left",
     "type": "scroll",
@@ -2485,7 +3053,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 44,
     "name": "Top Row Center Reset",
     "target": "Top Row Center",
     "type": "scroll",
@@ -2556,7 +3124,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 45,
     "name": "Top Row Right Reset",
     "target": "Top Row Right",
     "type": "scroll",
@@ -2627,7 +3195,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 46,
     "name": "Center Row Center Reset",
     "target": "Center Row Center",
     "type": "scroll",
@@ -2698,7 +3266,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 47,
     "name": "Center Row Right Reset",
     "target": "Center Row Right",
     "type": "scroll",
@@ -2769,7 +3337,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 48,
     "name": "Bottom Row Left Reset",
     "target": "Bottom Row Left",
     "type": "scroll",
@@ -2840,7 +3408,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 49,
     "name": "Bottom Row Center Reset",
     "target": "Bottom Row Center",
     "type": "scroll",
