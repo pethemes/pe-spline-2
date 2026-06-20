@@ -29,10 +29,10 @@
       "itemStartPos": "top",
       "windowStartPos": "top",
       "itemEndPos": "bottom",
-      "windowEndPos": "top",
+      "windowEndPos": "bottom",
       "startOffset": 0,
-      "endOffset": 3000,
-      "showMarkers": false
+      "endOffset": 0,
+      "showMarkers": true
     },
     "from": {
       "position": {
