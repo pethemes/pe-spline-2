@@ -3977,7 +3977,7 @@
   },
   {
     "index": 57,
-    "name": "Main Cube Service 2",
+    "name": "Main Cube Service",
     "target": "Main Cube",
     "type": "scroll",
     "loop": false,
@@ -3997,17 +3997,17 @@
     },
     "scroll": {
       "trigger": "custom",
-      "triggerElement": "[data-service-index=\"2\"]",
+      "triggerElement": "#services-layers",
       "start": "top bottom",
       "end": "bottom top",
       "scrub": 1,
       "pin": false,
       "itemStartPos": "top",
-      "windowStartPos": "bottom",
+      "windowStartPos": "top",
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": false
     },
     "from": {
@@ -4048,7 +4048,7 @@
   },
   {
     "index": 58,
-    "name": "Top Column Services 2 ",
+    "name": "Top Column Service",
     "target": "Top Column",
     "type": "scroll",
     "loop": false,
@@ -4068,17 +4068,17 @@
     },
     "scroll": {
       "trigger": "custom",
-      "triggerElement": "[data-service-index=\"2\"]",
+      "triggerElement": "#services-layers",
       "start": "top bottom",
       "end": "bottom top",
       "scrub": 1,
       "pin": false,
       "itemStartPos": "top",
-      "windowStartPos": "bottom",
+      "windowStartPos": "top",
       "itemEndPos": "bottom",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 0,
+      "endOffset": 3000,
       "showMarkers": false
     },
     "from": {
@@ -4113,7 +4113,78 @@
       "rotate": {
         "x": 0,
         "y": 0,
-        "z": 3.1438
+        "z": -1.5779
+      }
+    }
+  },
+  {
+    "index": 59,
+    "name": "Bottom Column Service",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-layers",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 3000,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 1.5784
       }
     }
   }
