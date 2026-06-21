@@ -850,5 +850,293 @@
         "z": 0
       }
     }
+  },
+  {
+    "index": 13,
+    "name": "Main Cube Footer",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#contact-hero",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 3.14,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 14,
+    "name": "Main Cube Footer Copy",
+    "target": "Top Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#contact-hero",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 15,
+    "name": "Main Cube Footer Copy Copy",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#contact-hero",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 16,
+    "name": "Main Cube Footer Copy Copy Copy",
+    "target": "Center Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#contact-hero",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
   }
 ]
