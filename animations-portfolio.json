@@ -609,7 +609,7 @@
       "windowEndPos": "center",
       "startOffset": 0,
       "endOffset": 0,
-      "showMarkers": true
+      "showMarkers": false
     },
     "from": {
       "position": {
@@ -644,6 +644,78 @@
         "x": 3.14,
         "y": 3.14,
         "z": 3.14
+      }
+    }
+  },
+  {
+    "index": 10,
+    "name": "Main Cube Footer",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#portfolio-grid",
+      "endTriggerElement": "#portfolio-start-a-project",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 1,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
       }
     }
   }
