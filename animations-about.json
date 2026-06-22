@@ -360,78 +360,6 @@
     }
   },
   {
-    "index": 6,
-    "name": "Center Rof Left Rotate Copy",
-    "target": "Center Row Left",
-    "type": "normal",
-    "loop": true,
-    "yoyo": true,
-    "duration": 30,
-    "delay": 0,
-    "repeatDelay": 0,
-    "easing": "linear",
-    "easingPower": "power1",
-    "useCurrent": true,
-    "reverse": false,
-    "mouse": {
-      "event": "parallax",
-      "eventsTarget": "canvas",
-      "parallaxDir": "horizontal",
-      "parallaxPower": 0.5
-    },
-    "scroll": {
-      "trigger": "canvas",
-      "triggerElement": "",
-      "endTriggerElement": "",
-      "start": "top bottom",
-      "end": "bottom top",
-      "scrub": 1,
-      "pin": false,
-      "itemStartPos": "top",
-      "windowStartPos": "bottom",
-      "itemEndPos": "bottom",
-      "windowEndPos": "top",
-      "startOffset": 0,
-      "endOffset": 0,
-      "showMarkers": false
-    },
-    "from": {
-      "position": {
-        "x": 10,
-        "y": 0,
-        "z": 0
-      },
-      "scale": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotate": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      }
-    },
-    "to": {
-      "state": "",
-      "position": {
-        "x": -110.8869,
-        "y": 130.9035,
-        "z": 2
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "rotate": {
-        "x": 0.3701,
-        "y": -0.3299,
-        "z": 0
-      }
-    }
-  },
-  {
     "index": 7,
     "name": "Center Row Center Rotate",
     "target": "Center Row Center",
@@ -1081,7 +1009,7 @@
   },
   {
     "index": 16,
-    "name": "Top Row Right Reset Copy",
+    "name": "Center Row Left Reset",
     "target": "Center Row Left",
     "type": "scroll",
     "loop": false,
@@ -1441,7 +1369,7 @@
   },
   {
     "index": 21,
-    "name": "Bottom Row Center Reset Copy",
+    "name": "Bottom Row Right Reset",
     "target": "Bottom Row Right",
     "type": "scroll",
     "loop": false,
@@ -1658,78 +1586,6 @@
   {
     "index": 24,
     "name": "Main Cube DNA",
-    "target": "Main Cube",
-    "type": "scroll",
-    "loop": false,
-    "yoyo": false,
-    "duration": 2,
-    "delay": 0,
-    "repeatDelay": 0,
-    "easing": "linear",
-    "easingPower": "power1",
-    "useCurrent": true,
-    "reverse": false,
-    "mouse": {
-      "event": "parallax",
-      "eventsTarget": "canvas",
-      "parallaxDir": "horizontal",
-      "parallaxPower": 0.5
-    },
-    "scroll": {
-      "trigger": "custom",
-      "triggerElement": ".pin-spacer:has(#about-dna)",
-      "endTriggerElement": "",
-      "start": "top bottom",
-      "end": "bottom top",
-      "scrub": 1,
-      "pin": false,
-      "itemStartPos": "top",
-      "windowStartPos": "top",
-      "itemEndPos": "bottom",
-      "windowEndPos": "bottom",
-      "startOffset": 0,
-      "endOffset": 0,
-      "showMarkers": false
-    },
-    "from": {
-      "position": {
-        "x": 10,
-        "y": 0,
-        "z": 0
-      },
-      "scale": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotate": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      }
-    },
-    "to": {
-      "state": "",
-      "position": {
-        "x": 1,
-        "y": 150,
-        "z": 0
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "rotate": {
-        "x": -3.14,
-        "y": 3.14,
-        "z": 0
-      }
-    }
-  },
-  {
-    "index": 25,
-    "name": "Main Cube DNA 2",
     "target": "Main Cube",
     "type": "scroll",
     "loop": false,
