@@ -360,7 +360,7 @@
     }
   },
   {
-    "index": 7,
+    "index": 6,
     "name": "Center Row Center Rotate",
     "target": "Center Row Center",
     "type": "normal",
@@ -432,7 +432,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 7,
     "name": "Center Row Right Rotate",
     "target": "Center Row Right",
     "type": "normal",
@@ -504,7 +504,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 8,
     "name": "Bottom Row Left Rotate",
     "target": "Bottom Row Left",
     "type": "normal",
@@ -576,7 +576,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 9,
     "name": "Bottom Row Center Rotate",
     "target": "Bottom Row Center",
     "type": "normal",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 10,
     "name": "Bottom Row Right Rotate",
     "target": "Bottom Row Right",
     "type": "normal",
@@ -720,7 +720,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 11,
     "name": "Main Cube Reset",
     "target": "Main Cube",
     "type": "scroll",
@@ -792,7 +792,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 12,
     "name": "Top Row Left Reset",
     "target": "Top Row Left",
     "type": "scroll",
@@ -864,7 +864,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 13,
     "name": "Top Row Center Reset",
     "target": "Top Row Center",
     "type": "scroll",
@@ -936,7 +936,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 14,
     "name": "Top Row Right Reset",
     "target": "Top Row Right",
     "type": "scroll",
@@ -1008,7 +1008,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 15,
     "name": "Center Row Left Reset",
     "target": "Center Row Left",
     "type": "scroll",
@@ -1080,7 +1080,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 16,
     "name": "Center Row Center Reset",
     "target": "Center Row Center",
     "type": "scroll",
@@ -1152,7 +1152,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 17,
     "name": "Center Row Right Reset",
     "target": "Center Row Right",
     "type": "scroll",
@@ -1224,7 +1224,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 18,
     "name": "Bottom Row Left Reset",
     "target": "Bottom Row Left",
     "type": "scroll",
@@ -1296,7 +1296,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 19,
     "name": "Bottom Row Center Reset",
     "target": "Bottom Row Center",
     "type": "scroll",
@@ -1368,7 +1368,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 20,
     "name": "Bottom Row Right Reset",
     "target": "Bottom Row Right",
     "type": "scroll",
@@ -1440,7 +1440,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 21,
     "name": "Bottom Column Reset",
     "target": "Bottom Column",
     "type": "scroll",
@@ -1512,7 +1512,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 22,
     "name": "Top Column Reset",
     "target": "Top Column",
     "type": "scroll",
@@ -1584,7 +1584,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 23,
     "name": "Main Cube DNA",
     "target": "Main Cube",
     "type": "scroll",
@@ -1656,7 +1656,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 24,
     "name": "Main Cube Credentials 1",
     "target": "Main Cube",
     "type": "scroll",
@@ -1728,7 +1728,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 25,
     "name": "Top Col Credentials 1",
     "target": "Top Column",
     "type": "scroll",
@@ -1800,7 +1800,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 26,
     "name": "Bottom Col Credentials 1",
     "target": "Bottom Column",
     "type": "scroll",
@@ -1872,7 +1872,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 27,
     "name": "Main Cube Credentials 2",
     "target": "Main Cube",
     "type": "scroll",
@@ -1944,7 +1944,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 28,
     "name": "Center Column Credentials 2",
     "target": "Center Column",
     "type": "scroll",
@@ -2016,7 +2016,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 29,
     "name": "Main Cube Credentials 3",
     "target": "Main Cube",
     "type": "scroll",
@@ -2088,7 +2088,7 @@
     }
   },
   {
-    "index": 32,
+    "index": 30,
     "name": "Top Column Credentials 3",
     "target": "Top Column",
     "type": "scroll",
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 31,
     "name": "Bottom Column Credentials 3",
     "target": "Bottom Column",
     "type": "scroll",
@@ -2232,7 +2232,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 32,
     "name": "Main Cube Team 1",
     "target": "Main Cube",
     "type": "scroll",
@@ -2304,7 +2304,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 33,
     "name": "Top Column Team 1",
     "target": "Top Column",
     "type": "scroll",
@@ -2376,7 +2376,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 34,
     "name": "Bottom Column Team 1",
     "target": "Bottom Column",
     "type": "scroll",
@@ -2448,7 +2448,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 35,
     "name": "Main Cube Team 2",
     "target": "Main Cube",
     "type": "scroll",
@@ -2520,7 +2520,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 36,
     "name": "Main Cube Standarts",
     "target": "Main Cube",
     "type": "scroll",
@@ -2550,7 +2550,7 @@
       "itemStartPos": "top",
       "windowStartPos": "bottom",
       "itemEndPos": "top",
-      "windowEndPos": "center",
+      "windowEndPos": "top",
       "startOffset": 0,
       "endOffset": 0,
       "showMarkers": false
@@ -2588,6 +2588,222 @@
         "x": 1.0818,
         "y": 2.8656,
         "z": 0
+      }
+    }
+  },
+  {
+    "index": 37,
+    "name": "Main Cube Footer",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".standarts",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 69.3594,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 38,
+    "name": "Top Column Footer",
+    "target": "Top Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".standarts",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 3.14
+      }
+    }
+  },
+  {
+    "index": 39,
+    "name": "Bottom Column Footer",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".standarts",
+      "endTriggerElement": ".site-footer",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 100
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": -3.14
       }
     }
   }
