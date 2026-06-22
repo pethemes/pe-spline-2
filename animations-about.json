@@ -2431,8 +2431,8 @@
     "to": {
       "state": "",
       "position": {
-        "x": 367.6016,
-        "y": 429.4375,
+        "x": 410.8047,
+        "y": 477.1915,
         "z": 0
       },
       "scale": {
@@ -2441,14 +2441,158 @@
         "z": 1.2
       },
       "rotate": {
-        "x": 1.0818,
-        "y": 2.8656,
+        "x": 0.6994,
+        "y": 2.5969,
         "z": 0
       }
     }
   },
   {
     "index": 35,
+    "name": "Top Column Team 1",
+    "target": "Top Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-team)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "center",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 36,
+    "name": "Bottom Column Team 1",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-team)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "center",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 300
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 37,
     "name": "Main Cube Team 2",
     "target": "Main Cube",
     "type": "scroll",
@@ -2520,7 +2664,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 38,
     "name": "Main Cube Standarts",
     "target": "Main Cube",
     "type": "scroll",
