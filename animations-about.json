@@ -1654,5 +1654,149 @@
         "z": 0
       }
     }
+  },
+  {
+    "index": 24,
+    "name": "Main Cube DNA",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-dna)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 1,
+        "y": 150,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": -3.14,
+        "y": 3.14,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 25,
+    "name": "Main Cube DNA Copy",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-dna)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 1,
+        "y": 150,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": -3.14,
+        "y": 3.14,
+        "z": 0
+      }
+    }
   }
 ]
