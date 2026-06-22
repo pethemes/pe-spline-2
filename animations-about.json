@@ -1873,6 +1873,150 @@
   },
   {
     "index": 27,
+    "name": "Top Col Credentials 1",
+    "target": "Top Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-dna)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -150
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 1.57
+      }
+    }
+  },
+  {
+    "index": 28,
+    "name": "Bottom Col Credentials 1",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-dna)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "bottom",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 150
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": -1.57
+      }
+    }
+  },
+  {
+    "index": 29,
     "name": "Main Cube Credentials 2",
     "target": "Main Cube",
     "type": "scroll",
@@ -1944,7 +2088,79 @@
     }
   },
   {
-    "index": 28,
+    "index": 30,
+    "name": "Center Column Credentials 2",
+    "target": "Center Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-clients)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "top",
+      "itemEndPos": "center",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": -3.14
+      }
+    }
+  },
+  {
+    "index": 31,
     "name": "Main Cube Credentials 3",
     "target": "Main Cube",
     "type": "scroll",
@@ -1999,9 +2215,9 @@
     "to": {
       "state": "",
       "position": {
-        "x": -175.332,
+        "x": -235.9531,
         "y": 18.6094,
-        "z": 0
+        "z": 33.5195
       },
       "scale": {
         "x": 1.1,
@@ -2009,14 +2225,158 @@
         "z": 1.1
       },
       "rotate": {
-        "x": 1.0818,
-        "y": 2.8656,
+        "x": 1.3631,
+        "y": 4.1195,
         "z": 0
       }
     }
   },
   {
-    "index": 29,
+    "index": 32,
+    "name": "Top Column Credentials 3",
+    "target": "Top Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-clients)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "center",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -200
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 1.57
+      }
+    }
+  },
+  {
+    "index": 33,
+    "name": "Bottom Column Credentials 3",
+    "target": "Bottom Column",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".pin-spacer:has(#about-clients)",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "center",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "bottom",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 200
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": -1.57
+      }
+    }
+  },
+  {
+    "index": 34,
     "name": "Main Cube Team 1",
     "target": "Main Cube",
     "type": "scroll",
@@ -2088,7 +2448,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 35,
     "name": "Main Cube Team 2",
     "target": "Main Cube",
     "type": "scroll",
@@ -2160,7 +2520,7 @@
     }
   },
   {
-    "index": 31,
+    "index": 36,
     "name": "Main Cube Standarts",
     "target": "Main Cube",
     "type": "scroll",
