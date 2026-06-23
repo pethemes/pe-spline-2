@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "index": 1,
+    "name": "Main Cube Footer",
+    "target": "Main Cube",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".site-footer",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": 1,
+        "y": 116.7539,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1.000151,
+        "z": 1.000016
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "name": "Backdrop Footer",
+    "target": "Backdrop",
+    "type": "scroll",
+    "loop": false,
+    "yoyo": false,
+    "duration": 2,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".site-footer",
+      "endTriggerElement": "",
+      "start": "top bottom",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "",
+      "position": {
+        "x": -149.19386480549292,
+        "y": 467.2763,
+        "z": 3
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  }
+]
