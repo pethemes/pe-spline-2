@@ -314,7 +314,7 @@
       "windowStartPos": "top",
       "itemEndPos": "bottom",
       "windowEndPos": "top",
-      "startOffset": 10,
+      "startOffset": 1,
       "endOffset": 0,
       "showMarkers": false
     },
@@ -881,8 +881,8 @@
     "to": {
       "state": "",
       "position": {
-        "x": 0,
-        "y": 38.1445,
+        "x": -99.9766,
+        "y": 68.9336,
         "z": 0
       },
       "scale": {
