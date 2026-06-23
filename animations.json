@@ -28,10 +28,10 @@
       "pin": false,
       "itemStartPos": "top",
       "windowStartPos": "bottom",
-      "itemEndPos": "bottom",
+      "itemEndPos": "top",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 9,
+      "endOffset": 1,
       "showMarkers": false
     },
     "from": {
@@ -99,10 +99,10 @@
       "pin": false,
       "itemStartPos": "top",
       "windowStartPos": "bottom",
-      "itemEndPos": "bottom",
+      "itemEndPos": "top",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 9,
+      "endOffset": 1,
       "showMarkers": false
     },
     "from": {
@@ -170,10 +170,10 @@
       "pin": false,
       "itemStartPos": "top",
       "windowStartPos": "bottom",
-      "itemEndPos": "bottom",
+      "itemEndPos": "top",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 9,
+      "endOffset": 1,
       "showMarkers": false
     },
     "from": {
@@ -241,10 +241,10 @@
       "pin": false,
       "itemStartPos": "top",
       "windowStartPos": "bottom",
-      "itemEndPos": "bottom",
+      "itemEndPos": "top",
       "windowEndPos": "top",
       "startOffset": 0,
-      "endOffset": 9,
+      "endOffset": 1,
       "showMarkers": false
     },
     "from": {
