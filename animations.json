@@ -20,7 +20,7 @@
       "parallaxPower": 0.5
     },
     "scroll": {
-      "trigger": "page",
+      "trigger": "canvas",
       "triggerElement": "",
       "start": "top bottom",
       "end": "bottom top",
@@ -91,7 +91,7 @@
       "parallaxPower": 0.5
     },
     "scroll": {
-      "trigger": "page",
+      "trigger": "canvas",
       "triggerElement": "",
       "start": "top bottom",
       "end": "bottom top",
@@ -162,7 +162,7 @@
       "parallaxPower": 0.5
     },
     "scroll": {
-      "trigger": "page",
+      "trigger": "canvas",
       "triggerElement": "",
       "start": "top bottom",
       "end": "bottom top",
@@ -233,7 +233,7 @@
       "parallaxPower": 0.5
     },
     "scroll": {
-      "trigger": "page",
+      "trigger": "canvas",
       "triggerElement": "",
       "start": "top bottom",
       "end": "bottom top",
