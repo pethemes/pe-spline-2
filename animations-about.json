@@ -1693,6 +1693,14 @@
           "z": 0
         }
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -2021,6 +2029,14 @@
           "z": 0
         }
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -2401,6 +2417,14 @@
           "z": 0
         }
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -2473,6 +2497,14 @@
         "y": 0,
         "z": 0
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -2545,6 +2577,14 @@
         "y": 0,
         "z": 0
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
