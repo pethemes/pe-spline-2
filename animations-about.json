@@ -2761,6 +2761,26 @@
         "y": 0,
         "z": 0
       }
+    },
+    "breakpoints": {
+      "tablet": {
+        "enabled": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.9,
+          "z": 0.9
+        },
+        "rotate": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
     }
   },
   {
