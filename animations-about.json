@@ -3043,8 +3043,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3123,8 +3123,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3203,8 +3203,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3283,8 +3283,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3363,8 +3363,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3443,8 +3443,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3523,8 +3523,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -3603,8 +3603,8 @@
       "xl": false,
       "base": false,
       "tablet": true,
-      "mobileL": false,
-      "mobileP": false
+      "mobileL": true,
+      "mobileP": true
     }
   },
   {
@@ -4245,6 +4245,646 @@
       "tablet": true,
       "mobileL": false,
       "mobileP": false
+    }
+  },
+  {
+    "index": 56,
+    "name": "DNA Cube to Glass - Mobile",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 57,
+    "name": "DNA Cube to Glass - Mobile  - 2",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 58,
+    "name": "DNA Cube to Glass - Mobile  - 3",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 59,
+    "name": "DNA Cube to Glass - Mobile  - 4",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 60,
+    "name": "DNA Cube to Glass - Mobile  - 5",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 61,
+    "name": "DNA Cube to Glass - Mobile  - 6",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 62,
+    "name": "DNA Cube to Glass - Mobile  - 7",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 63,
+    "name": "DNA Cube to Glass - Mobile  - 8",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": ".dna.section",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": false,
+      "mobileL": true,
+      "mobileP": true
     }
   }
 ]
