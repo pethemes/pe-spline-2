@@ -2,7 +2,7 @@
   {
     "index": 1,
     "name": "CRL 1x1 Glass Swap",
-    "target": "CRL Cube 1x1 Parent",
+    "target": "CRL Cube 1x1",
     "type": "normal",
     "loop": true,
     "yoyo": true,
@@ -1067,7 +1067,7 @@
   {
     "index": 16,
     "name": "TRL 1x1 Reset",
-    "target": "Top Row Left 1x1 Parent",
+    "target": "Top Row Left 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1138,7 +1138,7 @@
   {
     "index": 17,
     "name": "TRL 1x2 Reset",
-    "target": "Top Row Left 1x2 Parent",
+    "target": "Top Row Left 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1209,7 +1209,7 @@
   {
     "index": 18,
     "name": "TRL 1x3 Reset",
-    "target": "Top Row Left 1x3 Parent",
+    "target": "Top Row Left 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1280,7 +1280,7 @@
   {
     "index": 19,
     "name": "TRC 1x1 Reset",
-    "target": "Top Row Center 1x1 Parent",
+    "target": "Top Row Center 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1351,7 +1351,7 @@
   {
     "index": 20,
     "name": "TRC 1x2 Reset",
-    "target": "Top Row Center 1x2 Parent",
+    "target": "Top Row Center 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1422,7 +1422,7 @@
   {
     "index": 21,
     "name": "TRC 1x3 Reset",
-    "target": "Top Row Center 1x3 Parent",
+    "target": "Top Row Center 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1493,7 +1493,7 @@
   {
     "index": 22,
     "name": "TRR 1x1 Reset",
-    "target": "Top Row Right 1x1 Parent",
+    "target": "Top Row Right 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1564,7 +1564,7 @@
   {
     "index": 23,
     "name": "TRR 1x2 Reset",
-    "target": "Top Row Right 1x2 Parent",
+    "target": "Top Row Right 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1635,7 +1635,7 @@
   {
     "index": 24,
     "name": "TRR 1x3 Reset",
-    "target": "Top Row Right 1x3 Parent",
+    "target": "Top Row Right 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1706,7 +1706,7 @@
   {
     "index": 25,
     "name": "CRL 1x1 Reset",
-    "target": "Center Row Left 1x1 Parent",
+    "target": "Center Row Left 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1777,7 +1777,7 @@
   {
     "index": 26,
     "name": "CRL 1x2 Reset",
-    "target": "Center Row Left 1x2 Parent",
+    "target": "Center Row Left 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1848,7 +1848,7 @@
   {
     "index": 27,
     "name": "CRL 1x3 Reset",
-    "target": "Center Row Left 1x3 Parent",
+    "target": "Center Row Left 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1919,7 +1919,7 @@
   {
     "index": 28,
     "name": "CRC 1x1 Reset",
-    "target": "Center Row Center 1x1 Parent",
+    "target": "Center Row Center 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -1990,7 +1990,7 @@
   {
     "index": 29,
     "name": "CRC 1x2 Reset",
-    "target": "Center Row Center 1x2 Parent",
+    "target": "Center Row Center 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2061,7 +2061,7 @@
   {
     "index": 30,
     "name": "CRC 1x3 Reset",
-    "target": "Center Row Center 1x3 Parent",
+    "target": "Center Row Center 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2132,7 +2132,7 @@
   {
     "index": 31,
     "name": "CRR 1x1 Reset",
-    "target": "Center Row Right 1x1 Parent",
+    "target": "Center Row Right 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2203,7 +2203,7 @@
   {
     "index": 32,
     "name": "CRR 1x2 Reset",
-    "target": "Center Row Right 1x2 Parent",
+    "target": "Center Row Right 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2274,7 +2274,7 @@
   {
     "index": 33,
     "name": "CRR 1x3 Reset",
-    "target": "Center Row Right 1x3 Parent",
+    "target": "Center Row Right 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2345,7 +2345,7 @@
   {
     "index": 34,
     "name": "BRL 1x1 Reset",
-    "target": "Bottom Row Left 1x1 Parent",
+    "target": "Bottom Row Left 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2416,7 +2416,7 @@
   {
     "index": 35,
     "name": "BRL 1x2 Reset",
-    "target": "Bottom Row Left 1x2 Parent",
+    "target": "Bottom Row Left 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2487,7 +2487,7 @@
   {
     "index": 36,
     "name": "BRL 1x3 Reset",
-    "target": "Bottom Row Left 1x3 Parent",
+    "target": "Bottom Row Left 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2558,7 +2558,7 @@
   {
     "index": 37,
     "name": "BRC 1x1 Reset",
-    "target": "Bottom Row Center 1x1 Parent",
+    "target": "Bottom Row Center 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2629,7 +2629,7 @@
   {
     "index": 38,
     "name": "BRC 1x2 Reset",
-    "target": "Bottom Row Center 1x2 Parent",
+    "target": "Bottom Row Center 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2700,7 +2700,7 @@
   {
     "index": 39,
     "name": "BRC 1x3 Reset",
-    "target": "Bottom Row Center 1x3 Parent",
+    "target": "Bottom Row Center 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2771,7 +2771,7 @@
   {
     "index": 40,
     "name": "BRR 1x1 Reset",
-    "target": "Bottom Row Right 1x1 Parent",
+    "target": "Bottom Row Right 1x1",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2842,7 +2842,7 @@
   {
     "index": 41,
     "name": "BRR 1x2 Reset",
-    "target": "Bottom Row Right 1x2 Parent",
+    "target": "Bottom Row Right 1x2",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
@@ -2913,7 +2913,7 @@
   {
     "index": 42,
     "name": "BRR 1x3 Reset",
-    "target": "Bottom Row Right 1x3 Parent",
+    "target": "Bottom Row Right 1x3",
     "type": "scroll",
     "loop": false,
     "yoyo": false,
