@@ -2,7 +2,7 @@
   {
     "index": 1,
     "name": "CRL 1x1 Glass Swap",
-    "target": "CRL Cube 1x1 Parent",
+    "target": "CRL Cube 1x1",
     "type": "normal",
     "loop": true,
     "yoyo": true,
