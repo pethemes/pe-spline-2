@@ -4084,6 +4084,14 @@
           "z": 3.2
         }
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -4155,6 +4163,14 @@
         "y": 0,
         "z": -1.5779
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -4226,6 +4242,14 @@
         "y": 0,
         "z": 1.5784
       }
+    },
+    "enabledBreakpoints": {
+      "xxl": true,
+      "xl": true,
+      "base": true,
+      "tablet": true,
+      "mobileL": false,
+      "mobileP": false
     }
   },
   {
@@ -4302,7 +4326,7 @@
       "tablet": {
         "enabled": true,
         "position": {
-          "x": 0,
+          "x": 101.3906,
           "y": -75,
           "z": 1
         },
