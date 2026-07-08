@@ -6715,5 +6715,645 @@
       "mobileL": false,
       "mobileP": false
     }
+  },
+  {
+    "index": 86,
+    "name": "Clients Cube to Glass - Tablet",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 87,
+    "name": "Clients Cube to Glass - Tablet  - 2",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 88,
+    "name": "Clients Cube to Glass - Tablet  - 3",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 89,
+    "name": "Clients Cube to Glass - Tablet  - 4",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 90,
+    "name": "Clients Cube to Glass - Tablet  - 5",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 91,
+    "name": "Clients Cube to Glass - Tablet  - 6",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 92,
+    "name": "Clients Cube to Glass - Tablet  - 7",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 93,
+    "name": "Clients Cube to Glass - Tablet  - 8",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "section.clients",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "bottom",
+      "windowStartPos": "bottom",
+      "itemEndPos": "top",
+      "windowEndPos": "top",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
   }
 ]
