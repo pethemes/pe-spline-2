@@ -3765,14 +3765,14 @@
       "tablet": {
         "enabled": true,
         "position": {
-          "x": 336.6349,
+          "x": 388.8649,
           "y": 400,
           "z": 1
         },
         "scale": {
-          "x": 0.8813,
-          "y": 0.8813,
-          "z": 0.8813
+          "x": 1,
+          "y": 1,
+          "z": 1
         },
         "rotate": {
           "x": 1.6,
@@ -4069,14 +4069,14 @@
       "tablet": {
         "enabled": true,
         "position": {
-          "x": 336.6349,
+          "x": 348.0963,
           "y": 400,
           "z": 1
         },
         "scale": {
-          "x": 0.8813,
-          "y": 0.8813,
-          "z": 0.8813
+          "x": 1,
+          "y": 1,
+          "z": 1
         },
         "rotate": {
           "x": 1.6,
@@ -4550,6 +4550,1286 @@
           "z": 0
         }
       }
+    }
+  },
+  {
+    "index": 64,
+    "name": "Philosohpy Cube to Glass - Tablet",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 65,
+    "name": "Philosohpy Cube to Glass - Tablet  - 2",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 66,
+    "name": "Philosohpy Cube to Glass - Tablet  - 3",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 67,
+    "name": "Philosohpy Cube to Glass - Tablet  - 4",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 68,
+    "name": "Philosohpy Cube to Glass - Tablet  - 5",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 69,
+    "name": "Philosohpy Cube to Glass - Tablet  - 6",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 70,
+    "name": "Philosohpy Cube to Glass - Tablet  - 7",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 71,
+    "name": "Philosohpy Cube to Glass - Tablet  - 8",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-phliosophy",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 72,
+    "name": "Contact Cube to Glass - Tablet",
+    "target": "TRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 73,
+    "name": "Contact Cube to Glass - Tablet  - 2",
+    "target": "TRR 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 74,
+    "name": "Contact Cube to Glass - Tablet  - 3",
+    "target": "CRL Cube 1x1",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 75,
+    "name": "Contact Cube to Glass - Tablet  - 4",
+    "target": "CRC 1x2 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": false,
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 76,
+    "name": "Contact Cube to Glass - Tablet  - 5",
+    "target": "CRR 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 77,
+    "name": "Contact Cube to Glass - Tablet  - 6",
+    "target": "BRL 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 78,
+    "name": "Contact Cube to Glass - Tablet  - 7",
+    "target": "BRC 1x1 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
+    }
+  },
+  {
+    "index": 79,
+    "name": "Contact Cube to Glass - Tablet  - 8",
+    "target": "BRR 1x3 Cube",
+    "type": "normal",
+    "loop": false,
+    "yoyo": false,
+    "duration": 0.15,
+    "delay": 0,
+    "repeatDelay": 0,
+    "easing": "linear",
+    "easingPower": "power1",
+    "useCurrent": true,
+    "reverse": false,
+    "mouse": {
+      "event": "parallax",
+      "eventsTarget": "canvas",
+      "parallaxDir": "horizontal",
+      "parallaxPower": 0.5
+    },
+    "scroll": {
+      "trigger": "custom",
+      "triggerElement": "#services-contact",
+      "endTriggerElement": ".site-footer",
+      "start": "top+=10 top",
+      "end": "bottom top",
+      "scrub": 1,
+      "pin": false,
+      "itemStartPos": "top",
+      "windowStartPos": "center",
+      "itemEndPos": "bottom",
+      "windowEndPos": "center",
+      "startOffset": 0,
+      "endOffset": 0,
+      "showMarkers": false
+    },
+    "from": {
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "to": {
+      "state": "Glass Swap",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "enabledBreakpoints": {
+      "xxl": false,
+      "xl": false,
+      "base": false,
+      "tablet": true,
+      "mobileL": true,
+      "mobileP": true
     }
   }
 ]
