@@ -1,0 +1,699 @@
+.carousel-project-image img,
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Orange highlight ring on bullet point nav for hover + focus states */
+.centered-slider-bullet::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 100em;
+  z-index: -1;
+  border: 1px solid #FF4C24;
+  transition: all 0.5s cubic-bezier(0.65, 0.05, 0, 1);
+}
+
+.centered-slider-bullet:hover::after,
+.centered-slider-bullet.active::after,
+.centered-slider-bullet:focus::after {
+  inset: -5px;
+}
+
+/* Fade non-active slides */
+.centered-slider-row:has(.centered-slider-slide.active) .centered-slider-slide:not(.active) {
+  opacity: 0.45;
+}
+
+/* Little (orange) corners on each slide */
+/* https://css-tip.com/corner-only-border-image/ */
+.centered-slider-slide::after {
+  --size: 1em;
+  /* corner size */
+  --width: 1px;
+  /* border width */
+  --gap: 0.5em;
+  /* gap */
+  --color: #FF4C24;
+  content: '';
+  position: absolute;
+  inset: calc(var(--gap) * -1);
+  z-index: 1;
+  opacity: 0;
+  padding: calc(var(--gap) + var(--width));
+  outline: var(--width) solid var(--color);
+  outline-offset: calc(var(--gap)/-1);
+  mask:
+    conic-gradient(at var(--size) var(--size), #0000 75%, #000 0) 0 0/calc(100% - var(--size)) calc(100% - var(--size)),
+    linear-gradient(#000 0 0) content-box;
+  transition: all 0.4s cubic-bezier(0.65, 0.05, 0, 1);
+}
+
+.centered-slider-slide.active::after {
+  outline-offset: calc(-1*var(--width));
+  opacity: 1;
+}
+
+.pe--spline--loader {
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+}
+
+.pe--spline--loader canvas.spline--canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.site-nav-toggle {
+  cursor: pointer
+}
+
+.site-nav-toggle .menu-toggle-svg circle {
+  transition: opacity .2s ease
+}
+
+.site-nav-toggle.active .toggle-lines .menu-toggle-svg circle:nth-child(odd):not(:nth-child(5)),
+.site-nav-toggle:hover .menu-toggle-svg circle:nth-child(odd):not(:nth-child(5)) {
+  opacity: 0.2
+}
+
+.site-nav-toggle .toggle-lines {
+  transform-origin: center center;
+  transition: all .75s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.site-nav-toggle.active .toggle-lines {
+  transform: rotate(-135deg);
+}
+
+.site-nav-wrap {
+  transition: all .75s cubic-bezier(0.625, 0.05, 0, 1);
+  overflow: hidden;
+
+}
+
+.site-navigation {
+  transition: width .75s cubic-bezier(0.625, 0.05, 0, 1)
+}
+
+.site-navigation:has([data-menu="open"]) {
+  width: 420px !important;
+}
+
+@media only screen and (max-width: 550px) {
+  .site-navigation:has([data-menu="open"]) {
+    width: 100% !important;
+  }
+
+}
+
+.site-menu[data-menu=close] .site-nav-wrap {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.site-menu[data-menu=open] .site-nav-wrap {
+  max-height: 460px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+}
+
+.site-navigation .main-menu {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all .75s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.site-navigation .site-menu[data-menu=open] .main-menu {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.text_line.centered-line {
+  text-align: center !important;
+}
+
+.text_line.right-line {
+  text-align: right !important;
+}
+
+[data-text-anim=linesMask] .text_char {
+  opacity: .1;
+}
+
+[data-text-anim="charsUp"] .text_line,
+[data-text-anim="wordsUp"] .text_line {
+  overflow: hidden;
+  line-height: 1;
+}
+
+[data-text-anim="charsUp"] .text_char,
+[data-text-anim="wordsUp"] .text_word {
+  transform: translateY(100%)
+}
+
+a.primary-button svg.button-icon-svg {
+  transition: all .3s cubic-bezier(0.35, 1.5, 0.6, 1)
+}
+
+a.primary-button:hover svg.button-icon-svg:not(.clone) {
+  transform: translateX(31px);
+}
+
+a.primary-button:hover svg.button-icon-svg.clone {
+  transform: translateY(-50%) translateX(11px);
+}
+
+.info-box::after {
+  --size: 2em;
+  /* corner size */
+  --width: 1px;
+  /* border width */
+  --gap: 0.5em;
+  /* gap */
+  --color: #FF4C24;
+  content: '';
+  position: absolute;
+  inset: calc(var(--gap) * -1.5);
+  z-index: 1;
+  opacity: 1;
+  padding: calc(var(--gap) + var(--width));
+  outline: var(--width) solid var(--color);
+  outline-offset: calc(var(--gap)/-1);
+  mask:
+    conic-gradient(at var(--size) var(--size), #0000 75%, #000 0) 0 0/calc(100% - var(--size)) calc(100% - var(--size)),
+    linear-gradient(#000 0 0) content-box;
+  transition: all 0.4s cubic-bezier(0.65, 0.05, 0, 1);
+  border-radius: 21px;
+  pointer-events: none;
+}
+
+.info-box[data-anim=fadeUp]::after {
+  opacity: 0;
+  --size: 3em;
+}
+
+.info-box.anim-start[data-anim=fadeUp]::after {
+  opacity: 1;
+  --size: 2em;
+}
+
+.our-services-section.services .service-container:not([data-service="1"]) {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 550px) {
+  .our-services-section.services .service-container:not([data-service="1"]) {
+    position: relative;
+    opacity: 1;
+
+  }
+}
+
+[data-wf-id] .our-services-section.services .service-container {
+  position: relative;
+  opacity: 1;
+}
+
+/* This is optional! Only add if you're NOT going to use a CMS list. 
+The below snippet will stack your items in the Webflow designer and editor only, so you can edit content easier. */
+
+.wf-design-mode .motionpath-content-list,
+.w-editor .motionpath-content-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.wf-design-mode .motionpath-content-item,
+.w-editor .motionpath-content-item {
+  position: relative;
+}
+
+a.w-webflow-badge {
+  display: none !important;
+}
+
+[data-text-anim=justifyExpand]:not([data-wf-id]) {
+  opacity: 0;
+}
+
+@media screen and (max-width: 479px) {
+  [data-text-anim=justifyExpand]:not([data-wf-id]) {
+    opacity: 1;
+  }
+}
+
+[data-text-anim=justifyExpand] .justify_line {
+  display: flex !important;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+[data-text-anim=justifyExpand] .justify_line.expanded {
+  justify-content: space-between;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+section {
+  pointer-events: none;
+}
+
+section>div>div:has(*) {
+  pointer-events: all
+}
+
+.pin-spacer {
+  pointer-events: none;
+
+}
+
+.services-card {
+  position: absolute;
+  top: 100vh
+}
+
+.services-card:first-child {
+  top: 0%;
+  position: relative
+}
+
+.services-layer {
+  position: absolute;
+  top: 100vh
+}
+
+@media only screen and (max-width: 550px) {
+
+  .services-layer:first-child,
+  .services-layer {
+    position: relative !important;
+    top: unset !important;
+    min-height: auto !important;
+    margin-bottom: 2rem !important;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .services-card {
+    position: relative !important;
+    top: unset !important
+  }
+
+}
+
+.services-layer:first-child {
+  top: 0%;
+  position: relative
+}
+
+.map-marker::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--_colors---red);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  animation-name: mapMarker;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+
+@keyframes mapMarker {
+  0% {
+    width: 110%;
+    height: 110%;
+    opacity: 0
+  }
+
+  100% {
+    width: 150%;
+    height: 150%;
+    opacity: 1
+  }
+}
+
+.filter-category {
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.filter-category:hover {
+  opacity: .6;
+}
+
+.single-project.is-hidden {
+  display: none;
+}
+
+.portfolio-grid-wrapper {
+  position: relative;
+}
+
+/*.dna-infos-wrap .dna-info-box:not(:first-child) {*/
+/*  position: absolute;*/
+/*  opacity: 0;*/
+/*}*/
+
+.dna-infos-wrap {
+  position: relative;
+}
+
+.dna-infos-wrap .dna-info-box:not([data-wf-id]) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(40px);
+  /* aşağıdan gelir */
+  transition: opacity .6s cubic-bezier(.22, .61, .36, 1),
+    transform .6s cubic-bezier(.22, .61, .36, 1);
+  will-change: opacity, transform;
+  pointer-events: none;
+}
+
+/* aktif adım */
+.dna-infos-wrap .dna-info-box.is-active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .dna-infos-wrap .dna-info-box:not([data-wf-id]),
+  .dna-infos-wrap .dna-info-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    transform: translateY(00px);
+    /* aşağıdan gelir */
+    transition: opacity .6s cubic-bezier(.22, .61, .36, 1),
+      transform .6s cubic-bezier(.22, .61, .36, 1);
+    will-change: opacity, transform;
+    pointer-events: none;
+  }
+
+}
+
+/* geçilmiş adımlar -> yukarı çıkıp kaybolur */
+.dna-infos-wrap .dna-info-box.is-past {
+  opacity: 0;
+  transform: translateY(-40px);
+  /* yukarı gider */
+}
+
+/* Sol-alt dinamik başlık */
+#dna-headline {
+  will-change: opacity, transform;
+}
+
+#dna-headline.is-anim {
+  animation: dnaHeadlineIn .6s cubic-bezier(.22, .61, .36, 1) both;
+}
+
+@keyframes dnaHeadlineIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dna-infos-wrap .dna-info-box {
+    transition: none;
+  }
+
+  #dna-headline.is-anim {
+    animation: none;
+  }
+}
+
+/* Üyeleri ekranın DİKEY ortasına al (yatay yerleşim aynı kalır) */
+#about-team .team-members {
+  min-height: 100vh;
+  /* pinli viewport boyu -> merkez = ekran merkezi */
+  display: grid;
+  place-items: center;
+}
+
+#about-team .team-members .team-member {
+  grid-area: 1 / 1;
+}
+
+/* Flash önleme (değişmedi) */
+#about-team.tm-init #team-heading,
+#about-team.tm-init #team-text,
+#about-team.tm-init .team-section-title,
+#about-team.tm-init .team-member {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  #about-team.tm-init #team-heading,
+  #about-team.tm-init #team-text,
+  #about-team.tm-init .team-section-title,
+  #about-team.tm-init .team-member {
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  /* Üyeleri ekranın DİKEY ortasına al (yatay yerleşim aynı kalır) */
+  #about-team .team-members {
+    min-height: none;
+    /* pinli viewport boyu -> merkez = ekran merkezi */
+    display: flex;
+
+  }
+}
+
+section.clients {
+  max-width: 100vw;
+  overflow: hidden;
+  padding-top: 200px;
+}
+
+.clients-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  vertical-align: center;
+  --gap: 200px;
+  padding-left: var(--gap);
+  gap: var(--gap);
+  width: fit-content;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 850) {
+
+  .clients-carousel {
+    --gap: 110px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .clients-carousel {
+    --gap: 80px;
+  }
+}
+
+.clients-carousel {
+  animation: scroll-right var(--scroll-duration) linear infinite;
+}
+
+.clients-carousel.left-to-right {
+  animation: scroll-left var(--scroll-duration) linear infinite;
+}
+
+.clients-carousel .client {
+  width: 100px;
+  height: 50px;
+}
+
+.clients-carousel .client svg {
+  width: 100%;
+  height: fit-content;
+}
+
+.clients-carousel .client svg,
+.clients-carousel .client svg path {
+  fill: #13120f;
+  height: 100%;
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-1 * var(--scroll-width)));
+  }
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(calc(-1 * var(--scroll-width)));
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.main-menu-item-link::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--_colors---red);
+  width: 00%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 2;
+  transition: width .4s cubic-bezier(0.38, 0.005, 0.215, 1)
+}
+
+.main-menu-item-link {
+  position: relative;
+}
+
+.main-menu-item-link.w--current::after,
+.main-menu-item-link:hover::after {
+  width: 100%;
+}
+
+.main-menu:has(.main-menu-item-link:hover) .main-menu-item-link.w--current::after {
+  width: 0
+}
+
+.hover_char {
+  transition: transform .45s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.hover_char.char-clone {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  transform: translateY(1.1em);
+}
+
+.primary-button:hover .hover_char,
+[data-hover="charsUp"]:hover .hover_char {
+  transform: translateY(-1.1em)
+}
+
+.primary-button:hover .hover_char.char-clone,
+[data-hover="charsUp"]:hover .hover_char.char-clone {
+  transform: translateY(0em)
+}
+
+/* --- Show the Loader in Webflow Designer --- */
+:is(.wf-design-mode, .wf-editor) .loading-screen {
+  display: block;
+}
+
+[data-wf-loader="hidden"][data-wf-id] {
+  display: none;
+}
+
+.loading__numbers,
+.loading__progress {
+  display: none;
+}
+
+.loader-active .loading__progress,
+.loader-active .loading__numbers {
+  display: flex;
+}
+
+.single-project.w-dyn-item:hover .single-project-image {
+  transform: scale(1.1);
+}
+
+.single-project-image {
+  transition: transform .65s ease-in-out;
+}
+
+div#spline-persistent {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+/*.page-wrapper {*/
+/*  z-index: 1;*/
+/*  position: relative;*/
+/*}*/
+
+/*.site-footer {*/
+/*  min-height: 100vh;*/
+/*  position: relative;*/
+/*  z-index: 1;*/
+/*}*/
+
+div#spline-persistent {
+  z-index: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+  div#spline-persistent {
+    pointer-events: none !important;
+
+  }
+}
+
+.services-card {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  /* kompozit katmana zorla */
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.project-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* kaç satırdan sonra kesilecek */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
